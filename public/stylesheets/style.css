@@ -1,0 +1,74 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a.hyperlink-button{
+  border-radius: 20px;
+}a.bold{
+  color:gray;
+  text-align: center
+
+}
+.resendtoken{
+  text-decoration: none;  
+}
+.error_message{
+  color:rgb(231, 82, 56)
+}
+.resendtoken:hover{
+  font-size: 1.5em;
+  color:rgb(17, 236, 109);
+
+}
+ a.bold:hover {
+  font-size: 25px;
+  color:rgb(83, 82, 82);
+}
+
+a.boldmain:hover {
+  font-size: 25px;
+  
+}
+
+.logoSignup:hover {
+  font-size: 25px;
+  color:rgb(75, 73, 73);
+}
+
+
+.signup-progress-items{
+  margin-top: 25px;
+
+}
+div.signup-progress-items span{
+  font:bold;
+  font-size: 1.5em
+}
+.progress-bar-container {
+  width: 49%;
+  height: 4px;
+  border-radius: 5px;
+  border: 0.5px solid silver;
+  background-color: silver;
+}
+.progress-bar {
+  height: 125px;
+  background-color: green;
+}
+
+.logoSignup{
+  color:grey;
+  font-size: 20px
+}
+a{
+  text-decoration: none;
+}
+.linkDecoration a{
+  text-decoration: none;
+  color:darkgray;   
+}
+.linkDecoration a:hover{
+  font-size: 15px;
+  color: green;
+}

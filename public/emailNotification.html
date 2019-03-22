@@ -1,0 +1,17 @@
+<h1>Send The Email</h1><br />
+      <form ng-submit="emailNotification()" method="post">
+       
+            <label >To:</label>
+            <input type="sendemail.to"ng-model="sendemail.to" class="form-control" name="to">
+          
+
+        
+            <label >Subject:</label>
+            <input type="text"ng-model="sendemail.subject" class="form-control" name="subject">
+         
+              <label>Body:</label>
+              <textarea cols="5"ng-model="sendemail.body" rows="5"class="form-control" name="body"></textarea>
+          
+            <button type="submit" class="btn btn-success">Send</button>
+         
+      </form>

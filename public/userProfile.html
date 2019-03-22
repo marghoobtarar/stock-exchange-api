@@ -1,0 +1,18 @@
+<nav class="navbar-fluid navbar-default navbar-fixed-top" >
+      <div class="container">
+
+          <a class="boldmain navbar-brand   glyphicon glyphicon-stats" href="#/userProfile">Stock</a>   
+    <div>
+        <p class="navbar-right navbar-text" ><a  class=" btn btn-success hyperlink-button" ng-click="signout()">Logout</a></p>
+     <p class="navbar-right navbar-text" >Signed in as {{current_user}}</p>
+    
+            
+        </div>
+      </div>  
+      </nav>
+      <div style="margin-top: 2em" >
+
+        <canvas class="chart chart-line" chart-data="data" chart-labels="labels" 
+        chart-series="series" chart-click="onClick"></canvas>
+
+    </div>

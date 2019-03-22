@@ -1,0 +1,55 @@
+<div class="col-md-12 col-sm-12 col-lg-12">  <a style="margin-left:48%;" class=" bold loginTitle navbar-brand   glyphicon glyphicon-stats " href="#/"></a>   
+</div>
+<div class=" col-md-12   " style="text-align:center"> 
+ <div class="signup-progress-items ">
+<span class="active " style="margin-left:0em;">Account</span>
+<span class="active"style="margin-left:2em">Basic</span>
+<span class="active"style="margin-left:2em">Identity</span>
+<span class="active"style="margin-left:2em">Funding</span>
+<span class="active"style="margin-left:2em">Submit</span>
+<div class="col-md-12 col-md-offset-3" >
+<div ng-controller="basicDetailController " >
+        <div class="progress-bar-container "style="text-align:center" >
+            <div class="progress-bar" ng-style="{'width' : '{{ progress }}%','height':'0.2em' } ">{{ progress }}</div>
+        </div>
+    </div>
+
+</div>
+</div>
+
+<div>
+        
+    </div>  
+       
+    <form class="form-auth col-md-offset-3 col-md-6  col-sm-2 col-lg-8"  style="margin-top:2em"  ng-submit="basicInfo()">
+
+
+<div >
+        <p style='color:green'>verification link has been sended verifity your account before login</p>
+
+        <input type="text" ng-model="basicinfo.resident1"  placeholder="residential address" class="form-control"> <br>
+        <input type="text" ng-model="basicinfo.resident2" placeholder="residential address 2" class="form-control "><br>
+        <select  class="form-control"
+        ng-options="option.cityName for option in cityName track by option.cityZip"
+        ng-model="basicinfo.selectedOption" >
+    <option value="" disabled selected>City Name</option>
+    </select><br>
+     <input type="text" ng-model="basicinfo.zip" placeholder="city postal code" class="form-control"><br>
+     <input type="text" ng-model="basicinfo.cell_number" placeholder="cell number" class="form-control"><br>
+
+        <input type="submit" value="Continue" class="btn btn-success col-sm-12" /><br><br>
+      <!-- <div class="city" ng-repeat="city in cityName"> <p>{{city.cityName}}</p></div>-->
+     
+      
+    
+
+    </div>
+
+
+    </form>
+
+    <br><br>
+    <p class="col-md-8 col-md-offset-2">If already done? <a class="btn btn-success hyperlink-button float-right" href="#/login">Login</a>
+    </p>
+   </div>
+</div>
