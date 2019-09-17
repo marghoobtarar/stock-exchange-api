@@ -85,7 +85,7 @@ res.send('done');
             to:email , // list of receivers
             subject:subject , // Subject line
             text: body, // plain text body
-            html: '<b>fuck you arhum ali you ediot</b>' // html body
+            html: '<b>just check your check list</b>' // html body
         };
         transporter.sendMail(mailOptions, (error) => {
             if (error) {
