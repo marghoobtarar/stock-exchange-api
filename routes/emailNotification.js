@@ -119,7 +119,7 @@ var useremail = req.body.username;
             secure: true,
             auth: {
                 user: 'marghoobahmad0344@gmail.com',
-                pass: 'aimariaz786'}
+                pass: 'a******'}
         })
     var mailOptions = {
             from: '"marghoob ahmad" <marghoobahmad0344@gmail.com>', // sender address
